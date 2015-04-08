@@ -1,0 +1,2 @@
+GRANT REPLICATION SLAVE ON *.* TO slave@<%= node['mysql']['slave_ipaddress'] %> IDENTIFIED BY 'dbslave';
+

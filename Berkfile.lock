@@ -1,0 +1,10 @@
+DEPENDENCIES
+  mysql
+    path: site-cookbooks/mysql
+  yum-epel
+
+GRAPH
+  mysql (0.1.0)
+  yum (3.5.3)
+  yum-epel (0.6.0)
+    yum (~> 3.0)
